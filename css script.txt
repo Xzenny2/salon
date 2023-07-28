@@ -1,4 +1,109 @@
-/* Your CSS styles here */
-/* Customize the appearance of your website */
-/* Refer to the template provided in the previous response */
+/* Reset some default styles to ensure consistent rendering */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 50px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+header p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Section styles */
+section {
+  padding: 40px;
+}
+
+section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+}
+
+section li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Contact form styles */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
 
